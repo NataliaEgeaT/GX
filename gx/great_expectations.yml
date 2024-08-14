@@ -97,10 +97,10 @@ anonymous_usage_statistics:
   data_context_id: be373d45-d8eb-4e1a-b257-ab9da32769dc
   enabled: true
 fluent_datasources:
-  PptoComercial_2024_Pets:
+  PptoComercial_2024:
     type: pandas_filesystem
     assets:
-      ppto_pets:
+      ppto_comercial_2024:
         type: excel
         batching_regex: .*\.xlsx$
     base_directory: data
